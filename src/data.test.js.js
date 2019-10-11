@@ -1,4 +1,4 @@
-const data = [
+export const testData = [
     {
         title: "Zero",
         status: "retired",
@@ -10,25 +10,34 @@ const data = [
         stars: 65
     },
     {
-        title: "Two",
-        status: "active",
-        stars: 112
-    },
-    {
         title: "Three",
-        status: "active",
-        stars: 6
-    },
-    {
-        title: "Four",
         status: "retired",
-        stars: 35
-    },
-    {
-        title: "Item Five",
-        status: "active",
-        stars: 22
+        stars: 1
     }
 ];
 
-export { data as default, data };
+export const descendingOrder = [
+    {
+        title: "One",
+        status: "active",
+        stars: 65
+    },
+    {
+        title: "Three",
+        status: "retired",
+        stars: 1
+    },
+    {
+        title: "Zero",
+        status: "retired",
+        stars: 0
+    }
+];
+
+export const statusOrder = [
+    {
+        title: "One",
+        status: "active",
+        stars: 65
+    }
+];

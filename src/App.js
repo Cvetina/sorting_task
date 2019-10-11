@@ -2,7 +2,7 @@ import React from 'react';
 import database from './data';
 import DataList from './DataList';
 import SelectList from './SelectList';
-import SORTING_STATUSES from './enums';
+import { SORTING_STATUSES } from './helpers';
 import './App.css';
 
 class App extends React.Component {
