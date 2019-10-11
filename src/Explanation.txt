@@ -1,7 +1,0 @@
-I am using enumeration for filtering/sorting statuses because it will be easear to change
-I am using spread operator to do not mutate the state.
-Initial state is empty array and I am setting it to the data on componentDidMount as it would be if we are fetching data from the server.
-The application state is hold in the class component App, and the data and onChange method are passing via props to stateless components.
-I am using the simpliest sorting for numbers - applying Array.prototype.sort 
-For the active status I am using Array.prototype.filter method
-For the default data i am using data.js
