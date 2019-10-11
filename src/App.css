@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.select {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  text-transform: capitalize;
+}
+
+.select:focus {
+  outline: none;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 20px 30px;
+  width: 100%;
+  max-width: 350px;
+  min-height: 250px;
+  border: 2px solid #3f3f3f;
+  background-color: #fff;
+}
+
+.listItem {
+  display: inline-flex;
+  padding: 10px;
+  min-width: 90px;
+}
