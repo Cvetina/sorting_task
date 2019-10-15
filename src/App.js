@@ -26,7 +26,7 @@ class App extends React.Component {
             <h2 className="title">Simple App</h2>
         </div>
         <div className="content">
-          <SelectList className="select" onChange={this.handleChange} />
+          <SelectList sortOptions={SORTING_STATUSES} className="select" onChange={this.handleChange} />
           <DataList containerClass="listContainer" itemClass="listItem" data={data} />
         </div>
       </div>

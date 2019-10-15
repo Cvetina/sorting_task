@@ -35,7 +35,7 @@ it('Should do descending sort to data', () => {
   expect(toJson(descendingSort('stars', [...testData]))).toEqual(toJson(descendingOrder));
 });
 
-it('Should show only items wtih active status', () => {
+it('Should show only items with active status', () => {
   expect(toJson(sortByStatus('active', [...testData]))).toEqual(toJson(statusOrder));
 });
 
